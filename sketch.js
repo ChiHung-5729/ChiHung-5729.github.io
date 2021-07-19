@@ -16,7 +16,7 @@
 
 var db = firebase.database();
 
-let socket = io();
+var socket = io();
 
 function sendMood(msg){
   db.ref("/face").set({
